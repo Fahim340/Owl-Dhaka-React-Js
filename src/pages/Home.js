@@ -1,11 +1,12 @@
 import React from 'react'
-import Navbar from "./Navbar"
+import Navbar from "../components/Navbar"
 
-import FoodGallery from"./FoodGallery"
-import IntroBlog from"./IntroBlog"
-import CenterBlog from"./CenterBlog"
-import InfoBloge from"./InfoBlog"
-import Neu from"./Neu"
+import FoodGallery from"../components/FoodGallery"
+import IntroBlog from"../components/IntroBlog"
+import CenterBlog from"../components/CenterBlog"
+import InfoBloge from"../components/InfoBlog"
+import New from"../components/New"
+
 
 
 
@@ -20,10 +21,8 @@ export const Home = () => {
             <IntroBlog />
             <CenterBlog />
             <InfoBloge />
-          
-            <FoodGallery />
-            <FoodGallery />
-            <FoodGallery />
+            <New />
+           
            
             
             

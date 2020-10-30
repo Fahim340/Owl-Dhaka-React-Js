@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Background from '../image/infoBlog.png';
+import Background from '../image/IndexImage2.png';
 import { withTheme } from '@material-ui/styles';
 //import desktopImage from '../image/introblog.png';
 //import mobileImage from '../image/introblog.png';
